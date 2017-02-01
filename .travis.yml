@@ -1,3 +1,9 @@
+dist: trusty
+
+before_install:
+  - echo "====="
+  - cat ~/.m2/settings.xml
+  - echo "====="
+
 script:
   - hostname
-  - travis logs
